@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: #202731;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.blue {
+    background: rgb(58, 58, 174);
+}
+
+.red {
+    background: red;
+}
+
+.pink {
+    background: #ffc0cb;
+}
+
+.dark {
+    background: black;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    background-image: url(./layered-waves-haikei.svg);
+}
+
+.spacer1 {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url(./layered-waves-haikei2.svg);
+}
